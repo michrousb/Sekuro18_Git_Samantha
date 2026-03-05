@@ -1,0 +1,6 @@
+*   5c6e9c9 chore: merge v1 to v2
+|\  
+| * a820913 docs: add version 1 comment
+* | a79b47f docs: add version 2 comment
+|/  
+* 091a620 inisiasi github
