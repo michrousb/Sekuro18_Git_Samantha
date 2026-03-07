@@ -1,0 +1,30 @@
+  177  apt-get install git
+  178  cd 
+  179  apt-get install git
+  180  yes
+  181  cd root
+  182  /root
+  183  cd /root
+  184  apt-get install git
+  185  sudo apt-get update
+  186  sudo apt-get install git
+  187  sudo apt install ./<file>.deb
+  188  # If you're on an older Linux distribution, you will need to run this instead:
+  189  # sudo dpkg -i <file>.deb
+  190  # sudo apt-get install -f # Install dependencies
+  191  echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+  192  cd ~/Downloads
+  193  sudo apt install ./code_*.deb
+  194  cd
+  195  sudo apt update
+  196  sudo apt install -y build-essential
+  197  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+  198  cat compiler_trace.log
+  199  mkdir recovery_ops
+  200  cd recovery_ops
+  201  wget https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+  202  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+  203  rm system_raw.txt
+  204  ls
+  205  code .
+  206  history | tail -n 30 > history_audit.txt
